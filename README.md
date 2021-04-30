@@ -1,3 +1,5 @@
+![](images/arduino.png)
+
 # Indice
 
 - [Sobre](#-sobre)
@@ -18,17 +20,17 @@ Arduino. As implementações serão feitas com os mais diversos módulos e senso
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [Linguagem C++]() 
-- [Arduino]()
+- [Linguagem C++](https://docs.microsoft.com/pt-br/cpp/cpp/?view=msvc-160) 
+- [Arduino](https://go.hotmart.com/B34741498L)
 
 
 ---
-## 🚀 Cursos Recomendados
+## 🖥️ Cursos Recomendados
 - [Curso de Arduino](https://go.hotmart.com/B34741498L) 
 - [Curso de Robótica](https://go.hotmart.com/A52784638Q)
 ---
 
-## 🚀 Livros Utilizados
+## 📖 Livros Utilizados
 - [Arduino Básico](https://amzn.to/3vx6nOo)
 - [Programação com Arduino: Começando com Sketches](https://amzn.to/3gNc5Yx)
 - [Programação com Arduino II: Passos Avançados com Sketches](https://amzn.to/2S7O2Jm)
