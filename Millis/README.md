@@ -10,29 +10,26 @@
 - [Canal do Youtube](#-canal-do-youtube)
 
 
-
+---
 ## 🔖&nbsp; Sobre
 Esse sketch tem como objetivo mostrar o uso 
 da função millis() em projetos arduino. Fazemos uma comparação de um código semelhante com a função delay e com a mesma montagem, apenas mudamos a programação , implementando a função millis e vendo a diferença nos resultados.
 
-O sketch com código usando a função delay está nesse sketch : <a href=““>Sketch01</a>
+O sketch com código usando a função delay está nesse sketch : <a href=“https://github.com/Tiago880/Arduino/tree/main/Millis/Codigo_com_delay“>Sketch01</a>
 
 
-O sketch com o código usando a função millis está nesse sketch : <a href=““>Sketch02</a>
+O sketch com o código usando a função millis está nesse sketch : <a href=“https://github.com/Tiago880/Arduino/tree/main/Millis/Codigo_com_millis“>Sketch02</a>
 
 
 ## ESQUEMATICO
 ![](../images/Millis_delay_Esquemático.jpg)
 
-
+---
 ## Canal do Youtube
 
 A simulação desse projeto pode ser vista no link 
 a seguir : 
-<a href=“https://hotm.art/aU22TclL“>Video</a>
-
-
-
+- [Video](https://hotm.art/aU22TclL) 
 
 ---
 ## 🖥️ Cursos Recomendados
