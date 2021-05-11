@@ -5,12 +5,12 @@
 
 - [Sobre](#-sobre)
 - [Cursos Recomendados](#-cursos-recomendados)
-- [Livros Ulizados](#-livros-utilizados)
+- [Livros Recomendados](#-livros-recomendados)
 - [Como baixar os projetos](#-como-baixar-os-projetos)
 - [Canal do Youtube](#-canal-do-youtube)
 
 
----
+
 ## 🔖&nbsp; Sobre
 Esse sketch tem como objetivo mostrar o uso 
 da função millis() em projetos arduino. Fazemos uma comparação de um código semelhante com a função delay e com a mesma montagem, apenas mudamos a programação , implementando a função millis e vendo a diferença nos resultados.
@@ -21,10 +21,11 @@ O sketch com código usando a função delay está nesse sketch : <a href=“htt
 O sketch com o código usando a função millis está nesse sketch : <a href=“https://github.com/Tiago880/Arduino/tree/main/Millis/Codigo_com_millis“>Sketch02</a>
 
 
-## ESQUEMATICO
+# ESQUEMATICO
 ![](../images/Millis_delay_Esquemático.jpg)
 
 ---
+
 ## Canal do Youtube
 
 A simulação desse projeto pode ser vista no link 
@@ -37,7 +38,7 @@ a seguir :
 - [Curso de Robótica](https://go.hotmart.com/A52784638Q)
 ---
 
-## 📖 Livros Recomendados
+## 📖 Livros Utilizados
 - [Arduino Básico](https://amzn.to/3vx6nOo)
 - [Programação com Arduino: Começando com Sketches](https://amzn.to/3gNc5Yx)
 - [Programação com Arduino II: Passos Avançados com Sketches](https://amzn.to/2S7O2Jm)
@@ -48,12 +49,14 @@ a seguir :
 ## 🗂 Como baixar os projetos
 
     # Clonar o repositório
-    $ git clone 
+    $ git clone https://github.com/Tiago880/Arduino.git
+
 ```
 
 ---
 
 Desenvolvido por Tiago Cruz
+
 
 
 #cursodearduino​
