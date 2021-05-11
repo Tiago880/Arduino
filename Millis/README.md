@@ -3,14 +3,6 @@
 ![](../images/Millis_delay_bb.jpg)
 
 
-- [Sobre](#-sobre)
-- [Cursos Recomendados](#-cursos-recomendados)
-- [Livros Recomendados](#-livros-recomendados)
-- [Como baixar os projetos](#-como-baixar-os-projetos)
-- [Canal do Youtube](#-canal-do-youtube)
-
-
-
 ## 🔖&nbsp; Sobre
 Esse sketch tem como objetivo mostrar o uso 
 da função millis() em projetos arduino. Fazemos uma comparação de um código semelhante com a função delay e com a mesma montagem, apenas mudamos a programação , implementando a função millis e vendo a diferença nos resultados.
