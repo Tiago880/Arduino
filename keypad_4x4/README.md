@@ -1,6 +1,6 @@
 
 ## MONTAGEM NA PROTOBOARD
-![](../images/key_lcd.jpg)
+![](../images/lcd_keypad_bb.jpg)
 
 
 ## 🔖&nbsp; Sobre
