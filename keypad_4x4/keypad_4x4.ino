@@ -16,6 +16,8 @@
 //Inicializa o display no endereco 0x27
 LiquidCrystal_I2C lcd(0x27,16,2);
 
+int LINHAS[4] = {LINHA_1,LINHA_2,LINHA_3,LINHA_4};
+
 void setup()
 {
 //Pinos ligados aos pinos 1, 2, 3 e 4 do teclado - Linhas
@@ -39,14 +41,14 @@ void setup()
 void loop()
 {
     lcd.setBacklight(HIGH);
-    for (int ti = 3; ti<7; ti++)
+    for (int linhaEmTeste = 0; ti<4; ti++)
     {
         //Alterna o estado dos pinos das linhas
         digitalWrite(LINHA_1, LOW);
         digitalWrite(LINHA_2, LOW);
         digitalWrite(LINHA_3, LOW);
         digitalWrite(LINHA_4, LOW);
-        digitalWrite(ti, HIGH);
+        digitalWrite(LINHAS[linhaEmTeste], HIGH);
         //Verifica se alguma tecla da coluna 1 foi pressionada
         if (digitalRead(COLUNA_1) == HIGH)
         {
@@ -57,21 +59,21 @@ void loop()
         //Verifica se alguma tecla da coluna 2 foi pressionada
         if (digitalRead(COLUNA_2) == HIGH)
         {
-            imprime_linha_coluna(ti-2, 2);
+            imprime_linha_coluna(linhaEmTeste, 2);
             while(digitalRead(COLUNA_2) == HIGH){};
         }
 
         //Verifica se alguma tecla da coluna 3 foi pressionada
         if (digitalRead(COLUNA_3) == HIGH)
         {
-            imprime_linha_coluna(ti-2, 3);
+            imprime_linha_coluna(linhaEmTeste, 3);
             while(digitalRead(COLUNA_3) == HIGH){}
         }
 
         //Verifica se alguma tecla da coluna 4 foi pressionada
         if (digitalRead(COLUNA_4) == HIGH)
         {
-            imprime_linha_coluna(ti-2, 4);
+            imprime_linha_coluna(linhaEmTeste, 4);
             while(digitalRead(COLUNA_4) == HIGH){}
         }
     }
